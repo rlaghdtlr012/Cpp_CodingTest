@@ -1,0 +1,17 @@
+pair : 두 가지 값을 담을때
+tuple : 세가지 이상의 값을 넣을 때
+
+tie : pair 또는 tuple에 들어있는 두가지
+이상의 값을 끄집어낼 때 사용됨
+
+전역변수에 배열이나 변수 선언하면 0으로 초기화
+지역변수에 배열이나 변수 선언하면 쓰레기 값으로 초기화
+==> 따라서 지역변수에 배열 선언시
+==>fill(배열이름, 배열이름+길이, 초기화 할 숫자); 써줘야함
+==>ex) fill(a, a+26, 0);
+
+ios_base::sync_with_stdio(false);
+cin.tie(NULL); cout.tie(NULL);
+
+ios_base::sync_with_stdio(false);
+cin.tie(NULL); cout.tie(NULL);
