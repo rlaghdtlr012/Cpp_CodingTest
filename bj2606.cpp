@@ -11,7 +11,6 @@ void bfs(int y){
 	while(!Q.empty()){
 		y = Q.front();
 		Q.pop();
-		
 		for(auto i = 1; i <= num; i++){
 			if(board[y][i] == 1 && visited[i] == 0){
 				Q.push(i);
